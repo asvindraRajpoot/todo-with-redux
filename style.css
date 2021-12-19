@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-color: #f5f5f5;
+}
+h1 {
+  color: rgba(141, 47, 47, 0.9);
+  font-size: 8rem;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+}
+input {
+  background-color: white;
+  border: none;
+  padding: 1.5rem;
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  box-shadow: -0.1rem 0.5rem 1rem 0.1rem rgb(197, 192, 192);
+  color: rgb(161, 156, 156);
+}
+::placeholder {
+  font-size: 2rem;
+  color: #f5f5f5;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: rgb(161, 156, 156);
+  font-size: 3rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+.close {
+  font-size: 0.6rem;
+  margin-right: 0.4rem;
+}
+.start {
+  display: flex;
+}
+.para {
+  margin-left: 1rem;
+  font-size: 2.5rem;
+}
+.check {
+  box-shadow: none;
+}
+.footer {
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 2px;
+  background-color: white;
+  border: 1px solid black;
+  width: 31.25%;
+  padding: 1rem;
+}
+.all,
+.active,
+.completed {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.btn {
+  margin: 0.4rem;
+  border: 1px solid white;
+}
+.all {
+  border: 1px solid red;
+}
+.clear {
+  background: none;
+  border: none;
+  margin-left: 2rem;
+  color: gray;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  border: 1px solid red;
+}
+input[type="search"] {
+  padding: 0.3rem 1rem;
+  border: 0.1rem solid black;
+  color: blue;
+  margin-bottom: 2rem;
+}
